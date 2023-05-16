@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suprematizm</title>
+    <style>
+
+        body {
+            background-color: #78A4AF;
+        }
+
+        .ref {
+            position: absolute;
+            opacity: 0.3;
+        }
+        .elem1 {
+            transform: rotate(25deg);
+            top: 21%;
+            left: 50%;
+            display: block;
+            position: absolute;
+            height: 1277px;
+            width: 38px;
+            background-color: #2867E3;
+        }
+
+        .elem2 {
+            left: 77%;
+            top: 17%;
+            position: absolute;
+            background-color: #E20001;
+            height: 238px;
+            width: 55px;
+            transform: rotate(-65deg);
+            
+        }
+
+        .elem3 {
+            top: 38%;
+            position: absolute;
+            background-color: #E20001;
+            height: 218px;
+            width: 218px;
+            transform: rotate(-65deg);
+            left: 46.1%;
+            animation: appear 3s ease-in-out  infinite ;
+        }
+
+        .elem4 {
+            z-index: -1;
+            position: absolute;
+            background-color: #FFF07F;
+            height: 49px;
+            width: 145px;
+            transform: rotate(-65deg);
+            left: 74%;
+            top: 16%;
+        }
+
+        .elem5 {
+            z-index: -1;
+            position: absolute;
+            background-color: #FFF07F;
+            height: 235px;
+            width: 391px;
+            transform: rotate(-65deg);
+            top: 41%;
+            left: 20%;
+
+        }
+
+        .elem6 {
+            z-index: -1;
+            position: absolute;
+            background-color: #FFF07F;
+            height: 168px;
+            width: 371px;
+            transform: rotate(-65deg);
+            top: 60%;
+            left: 28%;          
+        }
+
+        .elem7 {
+            z-index: -1;
+            position: absolute;
+            background-color: #EDD7A6;
+            height: 31px;
+            width: 84px;
+            transform: rotate(-65deg);
+            left: 72.7%;
+            top: 18%;
+        }
+
+        .elem8 {
+            top: 41%;
+            position: absolute;
+            background-color: #41458C;
+            z-index: -1;
+            width: 289px;
+            height: 69px;
+            transform: rotate(-65deg);
+            left: 59%;
+            animation: slide2 5s ease-in-out infinite;
+        }
+
+        .elem9 {
+            top: 51%;
+            position: absolute;
+            background-color: #E20001;
+            height: 202px;
+            width: 323px;
+            transform: rotate(-65deg);
+            left: 22%;
+            animation: colorCH 6s linear infinite;
+        }
+
+        .elem10 {
+            z-index: -2;
+            top: 72%;
+            position: absolute;
+            background-color: #D4D1CA;
+            height: 299px;
+            width: 751px;
+            transform: rotate(-65deg);
+            left: 14%;           
+        }
+
+        .elem11 {
+            top: 110%;
+            position: absolute;
+            background-color: black;
+            height: 503px;
+            width: 138px;
+            transform: rotate(-65deg);
+            left: 36%; 
+        }
+
+        .elem12 {
+            top: 98%;
+            position: absolute;
+            background-color: #E20001;
+            height: 57px;
+            width: 469px;
+            transform: rotate(-65deg);
+            left: 49%;
+            animation: rotation  3s linear infinite;
+        }
+
+        .elem13 {
+            position: absolute;
+            background-color: #FFF07F;
+            height: 129px;
+            width: 211px;
+            transform: rotate(-65deg);
+            top: 120%;
+            left: 28%;
+            animation: slide 5s ease-in-out infinite;          
+        }
+
+        @keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+        @keyframes appear {
+            0% {
+                opacity: 1; 
+                transform: scale(1) rotate(-65deg);
+            }
+            50% {
+                opacity: 0;
+                transform: scale(0) rotate(-65deg);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) rotate(-65deg);
+            }
+            
+        }
+
+        @keyframes slide {
+            0% {
+                top: 120%;
+                left: 28%;
+            }
+            50% {
+                top: 100%;
+                left: 33%;
+            }
+            100% {
+                top: 120%;
+                left: 28%;
+            }
+            
+        }
+
+        @keyframes slide2 {
+            0% {
+                top: 41%;
+                left: 59%;
+            }
+            50% {
+                top: 43%;
+                left: 70%;
+            }
+            100% {
+                top: 41%;
+                left: 59%;
+            }
+            
+        }
+
+        @keyframes colorCH {
+            0% {
+                background-color: #E20001;
+            }
+            50% {
+                background-color: black;
+            }
+            100% {
+                background-color: #E20001;
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="elem1"></div>
+    <div class="elem2"></div>
+    <div class="elem3"></div>
+    <div class="elem4"></div>
+    <div class="elem5"></div>
+    <div class="elem6"></div>
+    <div class="elem7"></div>
+    <div class="elem8"></div>
+    <div class="elem9"></div>
+    <div class="elem10"></div>
+    <div class="elem11"></div>
+    <div class="elem12"></div>
+    <div class="elem13"></div>
+</body>
+</html>
